@@ -13,6 +13,7 @@ def selection_sort( arr ):
             arr[i], arr[smallest_index] = arr[smallest_index], arr[i] 
     return arr
 
+print("selection sort", selection_sort([1,3,14,5,31,6]))
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
@@ -23,7 +24,7 @@ def bubble_sort( arr ):
             if arr[j] > arr[j+1] :
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
-
+print("bubble sort", bubble_sort([1,3,14,5,31,6]))
 
 # STRETCH: implement the Count Sort function below
 def count_sort( arr, maximum=-1 ):
